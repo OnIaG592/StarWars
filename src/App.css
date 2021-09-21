@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.Planets {
+  background-image: url(./Assets/Avc0xl.png);
+  text-align: center;
+  border: 1px solid black;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  background-attachment: fixed;
+}
+.People {
+  background-image: url(./Assets/People.jpg);
+  text-align: center;
+  border: 1px solid black;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  background-attachment: fixed;
+}
+.Startships{
+  background-image: url(./Assets/wp400097.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: fixed;
+    border: 1px solid black;
+
+}
+.Vehichles {
+    background-image: url(./Assets/vehichles.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    border: 1px solid black;
+    background-attachment: fixed;
+    background-attachment: fixed;
+
+  }
+
+.Species{
+  background-image: url(./Assets/191218183635-14-star-wars-creatures.jpg);
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  border: 1px solid black;
+}
+.Films{
+  background-image: url(./Assets/966447.jpg);
+  
+  background-size:cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  border: 1px solid black;
+  background-attachment: fixed;
+}
+.Button {
+  border-radius: 60px 30px ;
+  font-size: 15px;
+  width: 150px;
+  padding: 10px 24px;
+}
+.test {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.Input {
+  width: 350px;
+  height: 37px;
+  border-radius: 60px;
+}
+.Header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100px;
+}
+.Header li {
+  list-style-type: none;
+}
+.Planets p {
+  font-size: 15px;
+  text-align: center;
+  word-wrap:break-word;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{
+  cursor:url(../src/Assets/Millennium\ Falcon\ Star\ Wars\ normal\ select.cur) 5 5, default;
+}
