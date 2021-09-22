@@ -68,7 +68,7 @@
 }
 .Input {
   width: 350px;
-  height: 37px;
+  height: 50px;
   border-radius: 60px;
 }
 .Header{
@@ -121,4 +121,38 @@
 }
 *{
   cursor:url(../src/Assets/Millennium\ Falcon\ Star\ Wars\ normal\ select.cur) 5 5, default;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100");
+* {
+  box-sizing: border-box;
+}
+
+.coolBeans {
+  border: 2px solid currentColor;
+  border-radius: 60px 30px ;
+  overflow: hidden;
+  padding: 1rem 2rem;
+  position: relative;
+  transition: 0.2s transform ease-in-out;
+  will-change: transform;
+  z-index: 0;
+}
+.coolBeans::after {
+  background-color: yellow;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: 0.2s transform ease-out;
+  will-change: transform;
+  z-index: -1;
+}
+.coolBeans:hover::after {
+  transform: translate(0, 0);
 }

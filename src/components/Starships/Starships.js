@@ -70,11 +70,11 @@ const Starships = ({ items }) => {
            :data.map((el) => <RenderStarshipsItems key={el.name} item={el}/> )
             }
             <div className="test">
-            <button className="Button" disabled={!isNext} onClick={loadMore}>Load More</button>
+            <button className="coolBeans" disabled={!isNext} onClick={loadMore}>Load More</button>
             <input className="Input" placeholder="Name of the starship"
               onChange={(e) => setSearch(e.target.value)} >
             </input>
-            <button className="Button" onClick={Search}>Search</button>
+            <button className="coolBeans" onClick={Search}>Search</button>
         </div>
         </div>
     )

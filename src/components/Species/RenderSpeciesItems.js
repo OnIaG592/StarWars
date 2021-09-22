@@ -26,7 +26,7 @@ const RenderSpeciesItems = ({ item }) => {
            <p>Created: {item.created}</p>
            <p>Edited: {item.edited}</p>
            </>
-           :<button className="Button" onClick={()=>setIsShowMore(true)}>ShowMore More</button>}
+           :<button className="coolBeans" onClick={()=>setIsShowMore(true)}>ShowMore More</button>}
            </div>
           </div> 
     )
