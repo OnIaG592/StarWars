@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #096453;
+    font-size: 2rem;
+    height: 15vh;
+    padding: 0px 3vw;
+}
+.links {
+    display: flex;
+}
+.homeLink {
+    text-decoration: none;    
+    color: aliceblue;
+    margin-right: 1vw;
+}
+.usersLink {
+    text-decoration: none;
+    color: aliceblue;
+}
+.counter {
+    color: aliceblue;
+}

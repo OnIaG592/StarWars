@@ -1,0 +1,42 @@
+.addedUser {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.addedUsersData {
+    border: #096453 solid;
+    margin: 0 auto;
+    padding: 1vw 2vw;
+    margin: 1vh 1vw;
+}
+
+.addedButtons {
+    display: flex;
+    margin-bottom: 1vh;
+}
+
+.editButton {
+    padding: 7px 20px;
+    cursor: pointer;
+    width: 8vw;
+    margin-right: 1vw;
+    background-color: rgb(168, 243, 107);
+    border: none;
+}
+
+.editLink {
+    text-decoration: none;
+    color: black;
+}
+
+.deleteButton {
+    padding: .5vw 1.5vh;
+    cursor: pointer;
+    width: 8vw;
+    background-color: rgb(168, 243, 107);
+    border: none;
+
+}

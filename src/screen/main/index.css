@@ -1,0 +1,41 @@
+.usersContainer {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin: 0 auto;
+    margin-top: 10vh;
+    
+}
+.usersContainer input {
+    margin-bottom: 1vh;
+    padding: 1vw 2vw;
+    border: none;
+    border-radius: 7px;
+}
+.usersContainer select {
+    padding: 1vw 2vw;
+    margin-bottom: 1vh;
+    border: none;
+    border-radius: 7px;
+
+}
+.homeButtons {
+    display: flex;
+    justify-content: center;
+}
+.registerButton {
+    padding: 10px 25px;
+    cursor: pointer;
+    width: 8vw;
+    border: none;
+    border-radius: 9px;
+}
+.saveButton {
+    width: 8vw;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin-left: 1vw;
+    border: none;
+    border-radius: 9px;
+
+}

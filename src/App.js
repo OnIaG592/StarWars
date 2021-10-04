@@ -1,35 +1,19 @@
 import './App.css';
 import React from "react"
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
-import Header from './components/Main/Header/header';
-import MainContainer from './components/Main/MainContainer/mainContainer';
+import {BrowserRouter as Router, Switch, Route, Link, BrowserRouter} from "react-router-dom"
+import  Users  from './screen/Users/Users';
+import Home from './screen/main/Home';
+import Header from './screen/header/Header';
 
+const App =()=> {
 
-
-class  App extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      people : "https://swapi.dev/api/people",
-      planets : "https://swapi.dev/api/planets",
-      films : "https://swapi.dev/api/films",
-      species  : "https://swapi.dev/api/species ",
-      vehicles : "https://swapi.dev/api/vehicles",
-      starships : "https://swapi.dev/api/starships",
-      data : [],
-    }
-  }
-
-
-  render(){
     return (
-     <Router>
-       <Header/>
-       <MainContainer/>
-     </Router>
-
+      <Router>
+        <Header/>
+        <Route exact path="/" component={Home}></Route>
+        <Route path="/users" component={Users}></Route>
+      </Router>
     )
   }
-}
 
 export default App;
